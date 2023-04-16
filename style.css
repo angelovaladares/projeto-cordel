@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: 'Passion One', cursive;
+    --font03: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 40px;
+}
+
+.cabecalho-titulo {
+    font-family: var(--font02);
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+.cabecalho-autor {
+    font-family: var(--font02);
+    font-weight: 200;
+    font-size: 2vw;
+}
+
+.cabecalho-link {
+    color: white;
+    font-weight: bolder;
+}
+
+.cabecalho-link:hover {
+    text-decoration: underline;
+}
+
+.principal {
+    font-family: var(--font03);
+    font-size: 3.8vw;
+    line-height: 2em;
+}
+
+.segundo-verso-paragrafo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+.quarto-verso-paragrafo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+.primeiro-verso {
+    padding: 10vh 30px;
+}
+
+.segundo-verso {
+    padding: 10vh 30px;
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.507);
+    background-attachment: fixed;
+}
+
+.terceiro-verso {    
+    padding: 10vh 30px;
+}
+
+.quarto-verso {
+    padding: 10vh 30px;
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.507);
+    background-attachment: fixed;
+
+}
+
+.quinto-verso {
+    padding: 10vh 30px;
+}
+
+.rodape {
+    font-family: var(--font01);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape-link {
+    color: white;
+}
+
+.rodape-link:hover {
+    text-decoration: underline;
+}
